@@ -15,7 +15,7 @@ The docker image is based on the CentOS operating system and the dependencies fo
 
 👉docker run -it --nethost --env=DISPLAY --volume=$HOME/.Xauthority:/root/Xauthority --device = /dev/video0:/dev/video0 centos
 
-This will provide the GUI to the container and Camera access from the docker host.
+This will provide the GUI and Camera access to the container from the docker host.
 
 
 
