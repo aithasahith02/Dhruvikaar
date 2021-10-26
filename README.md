@@ -1,5 +1,13 @@
 # Dhruvikaar
 Student Verification System
+
+✨The Dataset contains the images of the people properly dressed and improperly dressed for both training and testing.
+
+✨Model is the file containing the code for Creating,training and testing the model.
+
+✨Successful Execution of code will create the model file named as "new_model.h5".
+
+
 The Docker Image that can deploy the model can be get using the command "docker pull sahithaitha02/dhruvikaar_centos:latest"
 The docker image is based on the CentOS operating system and the dependencies for Centos:latest image to run the above model can be obtained by performing the follwing steps:
 
@@ -38,7 +46,8 @@ The commands are..
    pip3 install matplotlib
    
    pip3 install imutils
-   
+
+All these dependencies can also be installed using a Dockerfile at a single go.
    
 
 4->Once all the dependencies were satisfied the dataset can be downloaded from this repository along with the Code.
